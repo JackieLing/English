@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .Content-Main{
+            max-width: 900px;
+            margin: auto;
+            border: none;
+            border-radius: 5px; 
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-shadow: 1px 1px 1px #444;
+            color:yellow;
+            background:cornflowerblue;
+        }
+        .Content-Main h1{
+            padding: 8px 0px 40px 10px;
+            display: block;
+            border-bottom: 1px solid #444;
+        }
+        .text1{
+            margin-left: 3px;
+        }
+        .Content-Main label{
+            margin: 1px 0px 5px;
+            display: block;
+        }
+        .fileInputContainer{
+            height: 99px;
+            width: 99px;
+            margin: 20px 20px 20px 20px ;
+            border: none;
+            background:url(image/TIM截图20190524164545.png);
+            overflow: hidden; 
+            position: relative; 
+        }
+        .fileInput{
+            height: 106px;
+            border: none;
+            font-size: 300px;
+            opacity: 0;  
+            filter:alpha(opacity=0);
+            cursor: pointer;
+            position: absolute;
+        }
+        .Content-Main label>span{
+            width: 20%;
+            float: left;
+            text-align: right;
+            padding-right: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .Main-sex{
+            padding-right: 13px;
+            padding-bottom: 13px;
+            font-weight: bold;
+            line-height: 4px; 
+        }
+        .Main-sex input[type=checkbox]{
+            margin-top:6px;
+            vertical-align:middle; 
+        }
+        .Content-Main input[type="text"],.Content-Main input[type="email"],.Content-Main textarea{
+            height: 25px;
+            width: 70%;
+            line-height: 15px;
+            padding: 5px 0px 5px 5px; 
+            margin-bottom: 16px;
+            margin-right: 6px;
+            margin-top: 2px;
+            border: none;
+            border-radius:2px;
+            -webkit-border-radius:2px;
+            -moz-border-radius:2px;
+            outline: 0 none; 
+            background:  #DFDFDF;
+            color: #525252;
+        }
+        .Content-Main textarea{
+            height: 30px;
+            width: 50%;
+            padding: 5px 0px 0px 5px;
+        }
+        .Content-Main .button{
+            padding: 8px 24px 8px 24px;
+            margin-bottom: 8px;
+            border: none;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #FFE477;
+            box-shadow: 1px 1px 1px  #3D3D3D;
+            -moz-box-shadow: 1px 1px 1px  #3D3D3D;
+            -webkit-box-shadow: 1px 1px 1px  #3D3D3D;
+            color: #585858;
+            background: #f6ff0a;
+        }
+        .Content-Main .button:hover{
+            color:  #333;
+            background:url(image/u=2774774115,214299917&fm=26&gp=0.jpg);
+        }
+    </style>
+    <meta name="Keywords" content="英语景点翻译网站"/>
+<meta name="Description" content="英语景点翻译网站" />
+<link href="style/main.css" rel="stylesheet" type="text/css" />
+<link href="style/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="script/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="script/js.js"></script>
+<script language="javascript" type="text/javascript" src="script/fun.js"></script>
+<!--[if lte IE 6]>
+<script src="script/png.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]--> 
+<script type="javascript">
+
+</script>
+</head>
+
+	
+<body onload="init()">
+<div class="div-a">
+<div class="headDiv">
+<div class="w968">
+	<!--Logo设计-->
+      <a href="/" class="logo"><img src="image/" alt="" /></a>
+      
+      <div class="topSearch">
+      	<form name="formsearch" action="./?search" method="post">
+      <input type="text" name="key" class="input1" />
+      <input type="submit" class="btn1" value="" />
+      </form>
+      </div>
+      <div class="topLanguage">
+      <a href="/?en.html">致力推广中国文化</a><br /><a href="/"></a>
+      </div>
+      <div class="nav">
+           <ul>
+           	<li><a href="index.html"  class="sN">首页</a></li>
+             <li><a href="gaikuang.html"  class="sNavA">公司概况</a></li>
+             <li><a href="fanyibu.html" class="sNavA">机构设置</a></li>
+             <li><a href="fanyianli.html"  class="sNavA">翻译案例</a></li>
+             <li><a href="jinqixiangmu.html"  class="sNavA">资讯中心</a></li>
+             <li><a href="rencaizhaoping.html" >人才招聘</a></li>
+             <li><a href="lianxiwomen.html">联系我们</a></li>
+              <li><a href="xinxifankui.html">信息反馈</a></li>
+           </ul>
+      </div>
+</div>
+</div>
+
+
+<div class="sNav">
+  <ul>
+    <li><a href="gaikuang.html" >公司简介</a></li>
+    <li><a href="lingdaotuanti.html" >领导团体</a></li>
+    <li><a href="gongsijigou.html" >公司机构</a></li>
+    <li><a href="gongsishiji.html" >公司事迹</a></li>
+    <li><a href="xinxigongkai.html" target="_blank">信息公开</a></li>
+    <li><a href="gongsibiaozhi.html" >公司标志</a></li>
+  </ul>
+</div>
+<div class="sNav">
+  <ul>
+    <li><a href="fanyibu.html" >翻译部</a></li>
+    <li><a href="gongguanbu.html" >公关部</a></li>
+    <li><a href="biaopaizhizuobu.html" >标牌制作部</a></li>
+    
+  </ul>
+</div>
+
+<div class="sNav">
+  <ul>
+    <li><a href="shangxi.html" >赏析</a></li>
+    <li><a href="cuowufenxi.html" >错误分析</a></li>
+  </ul>
+</div>
+
+<div class="sNav">
+  <ul>
+    <li><a href="jinqixiangmu.html" >近期项目</a></li>
+    <li><a href="hezuowangzhan.html" >合作网站</a></li>
+    <li><a href="jingqumenpiao.html" >景区门票</a></li>
+  </ul>
+</div>
+
+<div class="sNav">
+  <ul>
+     <li><a href="/?photo/tp/251.html" >#</a></li>
+     <li><a href="/?audio/tp/252.html" >#</a></li>
+  </ul>
+</div>
+
+<div class="sNav">
+  <ul>
+    <li><a href="/?djyd/tp/253.html" >#</a></li>
+    <li><a href="/?djyd/tp/254.html" >#</a></li>
+    <li><a href="/?djyd/tp/255.html" title="">#</a></li>
+    <li><a href="/?djyd/tp/256.html" title="">#</a></li>
+    <li><a href="/?down/tp/257.html" >#</a></li>
+</ul>
+</div>
+
+<div class="sNav">
+  <ul>
+    <li><a href="/?contact/tp/258.html" >#</a></li>
+    <li><a href="/?map1/tp/259.html" >#</a></li>
+    <li><a href="/?map2/tp/260.html" >#</a></li>
+  </ul>
+</div>
+	
+        <div class="Content-Main">
+            <form  action="" method="post" class="form-userInfo">
+                <h1>个人信息注册提交</h1>
+                
+                <span class="text1">请完Cont善您的个人信：<br>单击图片可进行用户头像上传</span>
+                <p>
+                <div class="fileInputContainer">
+                    <input class="fileInput" id="" type="file" name="">
+                </div>
+                <label>
+                    <span>Your name:</span>
+                    <input type="text"  name="name" placeholder="Your Full Name">
+                </label>
+                <label class="Main-sex">
+                    <span>Your sex:</span>
+                    <input type="checkbox" class="man">男
+                    <input type="checkbox" class="women">女
+                </label>
+                <label>
+                    <span>Your email :</span>
+                    <input type="email" name="email" placeholder="@.com">
+                </label>
+                <label>
+                    <span>Your phone:</span>
+                    <input type="text" name="phone" placeholder="Please input 11 number">
+                </label>
+                <label>
+                    <span>Message:</span>
+                    <textarea id="message" name="message" placeholder="Your message to us"></textarea>
+                </label>
+                
+                    <form id="form1" action="uploadFile.do" target="frame1" method="post" enctype="multipart/form-data">
+        			<input type="file" name="file"> 
+        			<input type="button" value="上传" onclick="upload()">
+        			<a href="index.html" style="color: #F6FF0A;">返回首页</a>
+    			</form>
+    				<iframe name="frame1" frameborder="0" height="40"></iframe>
+    <!-- 其实我们可以把iframe标签隐藏掉 -->
+    				<script type="text/javascript">
+      				  function upload() {
+      				      $("#form1").submit();
+      				      var t = setInterval(function() {
+                //获取iframe标签里body元素里的文字。即服务器响应过来的"上传成功"或"上传失败"
+       			         var word = $("iframe[name='frame1']").contents().find("body").text();
+      			          if (word != "") {
+       		             alert(word);        //弹窗提示是否上传成功
+      		              clearInterval(t);   //清除定时器
+      	          }
+     	       }, 1000);
+   	     }
+  					  </script>
+  					  
+                <label>
+                    <input type="button" class="button" value="提交">
+                </label>
+                
+            </form>
+        </div>
+        
+</body>
+</html>
+

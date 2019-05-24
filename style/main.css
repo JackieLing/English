@@ -57,10 +57,11 @@ h5{font-size:12px;}
 .pageTitle li{float:left; height:33px; overflow:hidden; padding:0 14px 0 10px; font-family:"微软雅黑"; color:#3663a4; font-size:15px;}
 .pageTitle .liNow{background:url(../image/pageTitleBg.gif) right top no-repeat;}
 
-.pageNow{background:url(../image/pageNow.gif) top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#818181;}
-.pageNow a{color:#818181; background:url(../image/ico2.gif) right center no-repeat; padding:0 13px 0 7px;}
+.pageNow{background-color: #1E90FF; top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#0000FF;}
+.pageNow a{color:#00BFFF; background-color: #1E90FF; right center no-repeat; padding:0 13px 0 7px;}
 .pageNow span{padding-left:7px;}
-.pageNow a:hover{color:#194785;}
+.pageNow a:hover{color:blue;}
+
 
 .pageNum{text-align:center; height:55px; overflow:hidden; padding-top:20px;}
 .pageNum input{background:url(../image/input.gif); width:33px; height:19px; line-height:19px; text-align:center; padding:0px; border:0px; margin:0 3px;}
@@ -140,8 +141,8 @@ h5{font-size:12px;}
 .pageTitle li{float:left; height:33px; overflow:hidden; padding:0 14px 0 10px; font-family:"微软雅黑"; color:#3663a4; font-size:15px;}
 .pageTitle .liNow{background:url(../image/pageTitleBg.gif) right top no-repeat;}
 
-.pageNow{background:url(../image/pageNow.gif) top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#818181;}
-.pageNow a{color:#818181; background:url(../image/ico2.gif) right center no-repeat; padding:0 13px 0 7px;}
+.pageNow{background:url(../image/lanzi.png) top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#818181;}
+.pageNow a{color:yellow; background:url(../image/pageNow.gif) right center no-repeat; padding:0 13px 0 7px;}
 .pageNow span{padding-left:7px;}
 .pageNow a:hover{color:#194785;}
 
