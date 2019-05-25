@@ -24,7 +24,7 @@
 .newsPart1 .bigImg{position:absolute; z-index:1; left:7px; top:7px; display:none;}
 .newsPart1 .list{position:absolute; z-index:1; right:7px; top:7px; width:330px;}
 .newsPart1 li{float:left; width:328px; height:66px; overflow:hidden; border:#eee5d6 solid 1px; position:relative; margin-bottom:7px;}
-.newsPart1 .imgDiv{position:absolute; z-index:1; left:6px; top:5px;}
+.newsPart1 .imgDiv{position:absolute; z-index:1; left:16px; top:5px;}
 .newsPart1 .content{line-height:1.6em; padding:3px 6px 0 117px;}
 .newsPart1 .liNow{background:#fdfaf4;}
 

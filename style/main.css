@@ -14,6 +14,8 @@ h1{font-size:16px;}
 h5{font-size:12px;}
 .fl{float:left;}
 .fr{float:right;}
+.flindexNotice{border:2px solid royalblue;float: left;width:500px;}
+.flindexNews{border:5px solid lightblue;float: right;}
 .clear_f{clear:both; height:0px; padding:0px; margin:0px; display:block; _display:inherit;}
 .h10{height:10px; overflow:hidden; clear:both;}
 .w219{width:219px; overflow:hidden; padding-left:9px;}
@@ -49,15 +51,15 @@ h5{font-size:12px;}
 .footFast{height:136px; overflow:hidden;}
 .footFast li{float:left; padding:15px 6px 0 13px;}
 
-.footDiv{background:url(../image/footBg.jpg) center top no-repeat; padding-top:28px; height:178px; overflow:hidden; text-align:center; line-height:22px; color:#78796b;}
+.footDiv{background:url(../image/1558752200.png) center top no-repeat; padding-top:28px; height:7px; overflow:hidden; text-align:center; line-height:22px; color:#78796b;}
 
-.pageTitle{background:url(../image/1.png); left top no-repeat; height:33px; overflow:hidden;}
+.pageTitle{background:url(../image/1.png); left top no-repeat; height:35px; overflow:hidden;}
 .pageTitle .bg{background:url(../image/pageTitle.gif) right bottom no-repeat; height:33px; line-height:33px; overflow:hidden; position:relative;}
 .pageTitle .more{position:absolute; z-index:1; top:0px; right:10px; font-family:Arial; color:#3663a4; font-size:10px;}
 .pageTitle li{float:left; height:33px; overflow:hidden; padding:0 14px 0 10px; font-family:"微软雅黑"; color:#3663a4; font-size:15px;}
 .pageTitle .liNow{background:url(../image/pageTitleBg.gif) right top no-repeat;}
 
-.pageNow{background-color: #1E90FF; top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#0000FF;}
+.pageNow{background-color:dodgerblue; top repeat-x; height:30px; line-height:30px; overflow:hidden; padding:0 6px; border:#eee5d6 solid 1px; color:#0000FF;}
 .pageNow a{color:#00BFFF; background-color: #1E90FF; right center no-repeat; padding:0 13px 0 7px;}
 .pageNow span{padding-left:7px;}
 .pageNow a:hover{color:blue;}
